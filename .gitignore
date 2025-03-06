@@ -1,0 +1,107 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+snapshots/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+ENV/
+.env/
+venv.bak/
+
+# Django stuff
+*.log
+local_settings.py
+instance/
+media/
+staticfiles/
+*.sqlite3
+/db.sqlite3
+
+# aiogram related
+*.session
+*.session-journal
+*.aiogram_session
+*.aiogram_state
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Ignore environments
+.envrc
+*.env
+
+# Ignore secrets
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+*.cert
+
+# Ignore package manager files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore compiled Cython files
+*.c
+*.cpp
+*.pyd
+
+# Ignore npm and node_modules (if using JavaScript/TypeScript for Telegram UI)
+node_modules/
+npm-debug.log
+yarn-error.log
